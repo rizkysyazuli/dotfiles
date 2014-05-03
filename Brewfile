@@ -30,7 +30,7 @@ install narwhal
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
 install homebrew/dupes/grep
-# install josegonzalez/homebrew-php/php55
+install homebrew/homebrew-php/php55 --with-gmp
 
 # This formula didn’t work well last time I tried it:
 #install homebrew/dupes/screen
@@ -43,6 +43,7 @@ install git
 install imagemagick --with-webp
 install lynx
 install nmap
+install ucspi-tcp # `tcpserver` et al.
 install node
 install p7zip
 install pigz
@@ -52,6 +53,7 @@ install rhino
 install sqlmap
 install tree
 install webkit2png
+install xpdf
 install zopfli
 
 install homebrew/versions/lua52
