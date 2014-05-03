@@ -56,5 +56,10 @@ install zopfli
 
 install homebrew/versions/lua52
 
+# Install Git plugins
+
+install git-flow
+install legit
+
 # Remove outdated versions from the cellar
 cleanup
