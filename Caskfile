@@ -16,6 +16,7 @@ cask install google-chrome 2> /dev/null
 # cask install handbrake 2> /dev/null
 # cask install miro-video-converter 2> /dev/null
 cask install namechanger 2> /dev/null
+cask install onyx 2> /dev/null
 cask install opera 2> /dev/null
 # cask install opera-developer 2> /dev/null
 # cask install opera-next 2> /dev/null
@@ -40,8 +41,9 @@ cask install imagealpha 2> /dev/null
 cask install imageoptim 2> /dev/null
 # cask install iterm2 2> /dev/null
 cask install kaleidoscope 2> /dev/null
-cask install livereload 2> /dev/null
+# cask install livereload 2> /dev/null
 # cask install macvim 2> /dev/null
+cask install monotype-skyfonts 2> /dev/null
 cask install sequel-pro 2> /dev/null
 cask install sourcetree 2> /dev/null
 cask install sublime-text 2> /dev/null
