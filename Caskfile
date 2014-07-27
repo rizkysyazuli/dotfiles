@@ -1,19 +1,26 @@
 # Install native apps
 # Usage: `brew bundle Caskfile`
 
-install phinze/cask/brew-cask
+tap caskroom/cask
 tap caskroom/versions
+install brew-cask
 
 # Install common apps
 
 cask install alfred 2> /dev/null
 cask install clipmenu 2> /dev/null
+cask install cleanmymac
 cask install dropbox 2> /dev/null
+cask install evernote
 cask install firefox 2> /dev/null
 cask install flash-player 2> /dev/null
 cask install google-chrome 2> /dev/null
 # cask install google-chrome-canary 2> /dev/null
 # cask install handbrake 2> /dev/null
+cask install lastfm
+cask install macgamestore
+cask install mou
+cask install plex-media-server
 # cask install miro-video-converter 2> /dev/null
 cask install namechanger 2> /dev/null
 cask install onyx 2> /dev/null
@@ -21,7 +28,7 @@ cask install opera 2> /dev/null
 # cask install opera-developer 2> /dev/null
 # cask install opera-next 2> /dev/null
 cask install simple-comic 2> /dev/null
-# cask install skitch 2> /dev/null
+cask install skitch 2> /dev/null
 cask install skype 2> /dev/null
 cask install spectacle 2> /dev/null
 # cask install steam 2> /dev/null
@@ -34,16 +41,21 @@ cask install vlc 2> /dev/null
 
 # Install developer apps
 
+# cask install android-studio
 cask install atom 2> /dev/null
 cask install cyberduck 2> /dev/null
+# cask install eclipse-ide
+cask install fontprep
 # cask install google-web-designer 2> /dev/null
 cask install imagealpha 2> /dev/null
 cask install imageoptim 2> /dev/null
+cask install integrity
 # cask install iterm2 2> /dev/null
-cask install kaleidoscope 2> /dev/null
+# cask install kaleidoscope 2> /dev/null
 # cask install livereload 2> /dev/null
 # cask install macvim 2> /dev/null
-cask install monotype-skyfonts 2> /dev/null
+# cask install monotype-skyfonts 2> /dev/null
+cask install plex-media-server
 cask install sequel-pro 2> /dev/null
 cask install sourcetree 2> /dev/null
 cask install sublime-text 2> /dev/null
