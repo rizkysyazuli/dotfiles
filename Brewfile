@@ -83,3 +83,58 @@ install legit
 
 # Remove outdated versions from the cellar
 cleanup
+
+# Custom install
+
+ant
+# archey
+# autoconf
+# autoconf-archive
+# automake
+# betty
+# boost
+# casperjs
+# cloudfoundry-cli
+# cmake
+# couchdb
+# faac
+ffmpeg
+# freetype
+# gettext
+# gnu-tar
+# highlight
+# icu4c
+# jpeg
+# lame
+# libgpg-error
+# libidn
+# libksba
+# libpng
+# libtiff
+# libtool
+# libyaml
+# makedepend
+# mpw
+# nspr
+# nss
+# openssl
+# pcre
+# phantomjs
+# pkg-config
+# readline
+# scons
+# slimerjs
+# spidermonkey
+# sqlite
+# subversion
+# texi2html
+# tidy
+# unixodbc
+# webp
+# wxmac
+# x264
+# xulrunner
+# xvid
+# yasm
+# youtube-dl
+# zlib

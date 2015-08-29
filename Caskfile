@@ -6,6 +6,25 @@ tap caskroom/versions
 
 # Install common apps
 
+cask install adobe-reader 2> /dev/null
+# cask install airserver 2> /dev/null
+cask install cheatsheet 2> /dev/null
+# cask install clarify 2> /dev/null
+cask install daisydisk 2> /dev/null
+cask install divvy 2> /dev/null
+# cask install java7 2> /dev/null
+# cask install liteicon 2> /dev/null
+# cask install macclean 2> /dev/null
+cask install qlcolorcode 2> /dev/null
+cask install qlmarkdown 2> /dev/null
+cask install qlstephen 2> /dev/null
+cask install quicklook-csv 2> /dev/null
+cask install quicklook-json 2> /dev/null
+cask install webp-quicklook 2> /dev/null
+# cask install recordit 2> /dev/null
+# cask install remote-desktop-connection 2> /dev/null
+# cask install tunnelbear 2> /dev/null
+cask install xmarks-safari 2> /dev/null
 cask install alfred 2> /dev/null
 cask install clipmenu 2> /dev/null
 cask install cleanmymac
@@ -17,13 +36,13 @@ cask install google-chrome 2> /dev/null
 # cask install google-chrome-canary 2> /dev/null
 # cask install handbrake 2> /dev/null
 cask install lastfm
-cask install macgamestore
-cask install mou
-cask install plex-media-server
+# cask install macgamestore
+# cask install mou
+# cask install plex-media-server
 # cask install miro-video-converter 2> /dev/null
 cask install namechanger 2> /dev/null
-cask install onyx 2> /dev/null
-cask install opera 2> /dev/null
+# cask install onyx 2> /dev/null
+# cask install opera 2> /dev/null
 # cask install opera-developer 2> /dev/null
 # cask install opera-next 2> /dev/null
 cask install simple-comic 2> /dev/null
@@ -34,7 +53,7 @@ cask install spectacle 2> /dev/null
 cask install the-unarchiver 2> /dev/null
 # cask install tor-browser 2> /dev/null
 cask install totalterminal 2> /dev/null
-cask install transmission 2> /dev/null
+# cask install transmission 2> /dev/null
 # cask install ukelele 2> /dev/null
 cask install vlc 2> /dev/null
 
@@ -49,14 +68,21 @@ cask install fontprep
 cask install imagealpha 2> /dev/null
 cask install imageoptim 2> /dev/null
 cask install integrity
-# cask install iterm2 2> /dev/null
+cask install iterm2 2> /dev/null
 # cask install kaleidoscope 2> /dev/null
 # cask install livereload 2> /dev/null
 # cask install macvim 2> /dev/null
 # cask install monotype-skyfonts 2> /dev/null
-cask install plex-media-server
+# cask install plex-media-server
 cask install sequel-pro 2> /dev/null
 cask install sourcetree 2> /dev/null
-cask install sublime-text 2> /dev/null
-cask install virtualbox 2> /dev/null
+# cask install sublime-text 2> /dev/null
+# cask install virtualbox 2> /dev/null
 # cask install xscope 2> /dev/null
+cask install vagrant 2> /dev/null
+# cask install vagrant-manager 2> /dev/null
+# cask install mocksmtp 2> /dev/null
+# cask install charles 2> /dev/null
+# cask install lynxlet 2> /dev/null
+cask install robomongo 2> /dev/null
+# cask install silverback 2> /dev/null
