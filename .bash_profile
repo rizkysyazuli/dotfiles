@@ -10,7 +10,13 @@ export PATH="/usr/local/bin:$PATH"
 # Add Java to the `$PATH`
 export PATH="/usr/bin/java:$PATH"
 
+# Android SDK
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# Docker
+# export DOCKER_HOST=tcp://192.168.59.103:2376
+# export DOCKER_CERT_PATH=/Users/rizky/.docker/boot2docker-vm
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
