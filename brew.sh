@@ -55,30 +55,30 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
+# brew install aircrack-ng
+# brew install bfg
+# brew install binutils
+# brew install binwalk
+# brew install cifer
+# brew install dex2jar
+# brew install dns2tcp
+# brew install fcrackzip
+# brew install foremost
+# brew install hashpump
+# brew install hydra
+# brew install john
+# brew install knock
+# brew install netpbm
+# brew install nmap
+# brew install pngcheck
+# brew install socat
+# brew install sqlmap
+# brew install tcpflow
+# brew install tcpreplay
+# brew install tcptrace
+# brew install ucspi-tcp # `tcpserver` etc.
+# brew install xpdf
+# brew install xz
 
 # Install other useful binaries.
 brew install ack
@@ -100,6 +100,63 @@ brew install testssl
 brew install tree
 brew install webkit2png
 brew install zopfli
+brew install shellcheck
+
+# Custom install
+brew install ant
+brew install phantomjs
+brew install casperjs
+brew install ffmpeg
+brew install git-flow
+brew install legit
+# brew install archey
+# brew install autoconf
+# brew install autoconf-archive
+# brew install automake
+# brew install betty
+# brew install boost
+# brew install cloudfoundry-cli
+# brew install cmake
+# brew install couchdb
+# brew install faac
+# brew install freetype
+# brew install gettext
+# brew install gnu-tar
+# brew install highlight
+# brew install icu4c
+# brew install jpeg
+# brew install lame
+# brew install libgpg-error
+# brew install libidn
+# brew install libksba
+# brew install libpng
+# brew install libtiff
+# brew install libtool
+# brew install libyaml
+# brew install makedepend
+# brew install mpw
+# brew install nspr
+# brew install nss
+# brew install openssl
+# brew install pcre
+# brew install pkg-config
+# brew install readline
+# brew install scons
+# brew install slimerjs
+# brew install spidermonkey
+# brew install sqlite
+# brew install subversion
+# brew install texi2html
+# brew install tidy
+# brew install unixodbc
+# brew install webp
+# brew install wxmac
+# brew install x264
+# brew install xulrunner
+# brew install xvid
+# brew install yasm
+# brew install youtube-dl
+# brew install zlib
 
 # Remove outdated versions from the cellar.
 brew cleanup
