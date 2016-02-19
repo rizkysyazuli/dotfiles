@@ -32,6 +32,7 @@ cask install spotify 2> /dev/null
 cask install handbrake 2> /dev/null
 cask install macgamestore 2> /dev/null
 cask install cyberghost 2> /dev/null
+cask install focus 2> /dev/null
 # cask install tunnelbear 2> /dev/null
 # cask install flash-player 2> /dev/null
 # cask install qlcolorcode 2> /dev/null
