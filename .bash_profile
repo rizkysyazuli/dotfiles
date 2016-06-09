@@ -10,9 +10,15 @@ export PATH="/usr/local/bin:$PATH"
 # Add Java to the `$PATH`
 export PATH="/usr/bin/java:$PATH"
 
+# Add MySQL to the `$PATH`
+export PATH="/usr/local/mysql/bin:$PATH"
+
 # Android SDK
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
 export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# GitHub API token
+export HOMEBREW_GITHUB_API_TOKEN="421a6870d92c22a562cfc5b370a080c68fb27c01"
 
 # Docker
 # export DOCKER_HOST=tcp://192.168.59.103:2376

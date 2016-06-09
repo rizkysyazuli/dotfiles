@@ -161,3 +161,12 @@ alias apcrestart="sudo apachectl restart"
 
 # Faster npm for europeans
 # command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu"
+
+# Gitflow
+alias gitflow="git flow init"
+alias featurestart="git flow feature start"
+alias featurefinish="git flow feature finish"
+alias releasestart="git flow release start"
+alias releasefinish="git flow release finish"
+alias fixstart="git flow hotfix start"
+alias fixsfinish="git flow hotfix finish"

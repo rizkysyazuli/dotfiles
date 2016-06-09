@@ -33,6 +33,8 @@ cask install handbrake 2> /dev/null
 cask install macgamestore 2> /dev/null
 cask install cyberghost 2> /dev/null
 cask install focus 2> /dev/null
+cask install recordit 2> /dev/null
+# cask install drop-to-gif 2> /dev/null
 # cask install tunnelbear 2> /dev/null
 # cask install flash-player 2> /dev/null
 # cask install qlcolorcode 2> /dev/null
@@ -45,7 +47,6 @@ cask install focus 2> /dev/null
 # cask install java7 2> /dev/null
 # cask install liteicon 2> /dev/null
 # cask install macclean 2> /dev/null
-# cask install recordit 2> /dev/null
 # cask install remote-desktop-connection 2> /dev/null
 # cask install google-chrome-canary 2> /dev/null
 # cask install mou 2> /dev/null
