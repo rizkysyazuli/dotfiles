@@ -82,23 +82,23 @@ brew install homebrew/dupes/screen
 
 # Install other useful binaries.
 brew install ack
-brew install dark-mode
-#brew install exiv2
+# brew install dark-mode
+# brew install exiv2
 # brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
-brew install lua
+# brew install lua
 brew install lynx
 brew install p7zip
 # brew install pigz
 # brew install pv
 brew install rename
 # brew install rhino
-brew install speedtest_cli
-brew install ssh-copy-id
-brew install testssl
-brew install tree
-brew install vbindiff
+# brew install speedtest_cli
+# brew install ssh-copy-id
+# brew install testssl
+# brew install tree
+# brew install vbindiff
 brew install webkit2png
 # brew install zopfli
 brew install shellcheck
@@ -109,6 +109,8 @@ brew install phantomjs
 # brew install casperjs
 brew install ffmpeg
 brew install git-flow
+brew install node
+brew install mysql
 # brew install legit
 # brew install archey
 # brew install autoconf
@@ -161,3 +163,91 @@ brew install git-flow
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Desktop apps
+
+brew tap caskroom/cask
+
+brew install Caskroom/cask/cheatsheet
+brew install Caskroom/cask/clarify
+brew install Caskroom/cask/daisydisk
+# brew install Caskroom/cask/divvy
+brew install Caskroom/cask/xmarks-safari
+brew install Caskroom/cask/alfred
+brew install Caskroom/cask/clipmenu
+brew install Caskroom/cask/cleanmymac
+brew install Caskroom/cask/dropbox
+brew install Caskroom/cask/evernote
+brew install Caskroom/cask/firefox
+brew install Caskroom/cask/google-chrome
+brew install Caskroom/cask/google-photos-backup
+# brew install Caskroom/cask/lastfm
+brew install Caskroom/cask/namechanger
+brew install Caskroom/cask/simple-comic
+# brew install Caskroom/cask/skitch
+brew install Caskroom/cask/skype
+brew install Caskroom/cask/spectacle
+# brew install Caskroom/cask/steam
+brew install Caskroom/cask/the-unarchiver
+brew install Caskroom/cask/vlc
+brew install Caskroom/cask/spotify
+brew install Caskroom/cask/handbrake
+# brew install Caskroom/cask/macgamestore
+brew install Caskroom/cask/cyberghost
+brew install Caskroom/cask/focus
+# brew install Caskroom/cask/recordit
+# brew install Caskroom/cask/drop-to-gif
+# brew install Caskroom/cask/tunnelbear
+# brew install Caskroom/cask/flash-player
+# brew install Caskroom/cask/qlcolorcode
+# brew install Caskroom/cask/qlmarkdown
+# brew install Caskroom/cask/qlstephen
+# brew install Caskroom/cask/quicklook-csv
+# brew install Caskroom/cask/quicklook-json
+# brew install Caskroom/cask/webp-quicklook
+# brew install Caskroom/cask/adobe-reader
+# brew install Caskroom/cask/java7
+# brew install Caskroom/cask/liteicon
+# brew install Caskroom/cask/macclean
+# brew install Caskroom/cask/remote-desktop-connection
+# brew install Caskroom/cask/google-chrome-canary
+# brew install Caskroom/cask/mou
+# brew install Caskroom/cask/miro-video-converter
+# brew install Caskroom/cask/onyx
+# brew install Caskroom/cask/opera
+# brew install Caskroom/cask/opera-developer
+# brew install Caskroom/cask/opera-next
+# brew install Caskroom/cask/tor-browser
+# brew install Caskroom/cask/transmission
+# brew install Caskroom/cask/ukelele
+brew install Caskroom/cask/plex-media-server
+brew install Caskroom/cask/dash
+brew install Caskroom/cask/slack
+
+# Install developer apps
+brew install Caskroom/cask/airserver
+brew install Caskroom/cask/atom
+brew install Caskroom/cask/cyberduck
+brew install Caskroom/cask/fontprep
+brew install Caskroom/cask/imagealpha
+brew install Caskroom/cask/imageoptim
+brew install Caskroom/cask/iterm2
+brew install Caskroom/cask/sequel-pro
+brew install Caskroom/cask/sourcetree
+brew install Caskroom/cask/virtualbox
+brew install Caskroom/cask/vagrant
+brew install Caskroom/cask/robomongo
+brew install Caskroom/cask/owasp-zap
+# brew install Caskroom/cask/integrity
+# brew install Caskroom/cask/silverback
+# brew install Caskroom/cask/android-studio
+# brew install Caskroom/cask/vagrant-manager
+# brew install Caskroom/cask/mocksmtp
+# brew install Caskroom/cask/charles
+# brew install Caskroom/cask/lynxlet
+# brew install Caskroom/cask/xscope
+# brew install Caskroom/cask/sublime-text
+# brew install Caskroom/cask/kaleidoscope
+# brew install Caskroom/cask/macvim
+# brew install Caskroom/cask/google-web-designer
+# brew install Caskroom/cask/eclipse-ide
