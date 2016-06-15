@@ -105,8 +105,6 @@ brew install shellcheck
 
 # Custom install
 brew install ant
-brew install phantomjs
-# brew install casperjs
 brew install ffmpeg
 brew install git-flow
 brew install node
