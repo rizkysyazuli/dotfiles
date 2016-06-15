@@ -92,19 +92,20 @@ brew install lynx
 brew install p7zip
 # brew install pigz
 # brew install pv
-brew install rename
+# brew install rename
 # brew install rhino
 # brew install speedtest_cli
 # brew install ssh-copy-id
 # brew install testssl
 # brew install tree
 # brew install vbindiff
-brew install webkit2png
+# brew install webkit2png
 # brew install zopfli
 brew install shellcheck
 
 # Custom install
 brew install ant
+brew install phantomjs
 brew install ffmpeg
 brew install git-flow
 brew install node
@@ -134,12 +135,12 @@ brew install tidy-html5
 # brew install libpng
 # brew install libtiff
 # brew install libtool
-# brew install libyaml
 # brew install makedepend
 # brew install mpw
 # brew install nspr
 # brew install nss
-# brew install openssl
+brew install openssl
+brew install libyaml
 # brew install pcre
 # brew install pkg-config
 # brew install readline
@@ -164,7 +165,6 @@ brew install tidy-html5
 brew cleanup
 
 # Desktop apps
-
 brew tap caskroom/cask
 
 brew install Caskroom/cask/cheatsheet
@@ -198,16 +198,6 @@ brew install Caskroom/cask/focus
 # brew install Caskroom/cask/drop-to-gif
 # brew install Caskroom/cask/tunnelbear
 # brew install Caskroom/cask/flash-player
-brew install Caskroom/cask/qlcolorcode
-brew install Caskroom/cask/qlstephen
-brew install Caskroom/cask/qlmarkdown
-brew install Caskroom/cask/quicklook-json
-brew install Caskroom/cask/qlprettypatch
-brew install Caskroom/cask/quicklook-csv
-brew install Caskroom/cask/betterzipql
-brew install Caskroom/cask/qlimagesize
-brew install Caskroom/cask/webpquicklook
-brew install Caskroom/cask/suspicious-package
 # brew install Caskroom/cask/adobe-reader
 # brew install Caskroom/cask/java7
 # brew install Caskroom/cask/liteicon
@@ -224,7 +214,6 @@ brew install Caskroom/cask/suspicious-package
 # brew install Caskroom/cask/transmission
 # brew install Caskroom/cask/ukelele
 brew install Caskroom/cask/plex-media-server
-brew install Caskroom/cask/dash
 brew install Caskroom/cask/slack
 
 # Install developer apps
@@ -237,8 +226,10 @@ brew install Caskroom/cask/imageoptim
 brew install Caskroom/cask/iterm2
 brew install Caskroom/cask/sequel-pro
 brew install Caskroom/cask/sourcetree
+brew install Caskroom/cask/dash
 brew install Caskroom/cask/virtualbox
 brew install Caskroom/cask/vagrant
+# brew install Caskroom/cask/vagrant-manager
 # brew install Caskroom/cask/docker
 # brew install Caskroom/cask/docker-machine
 # brew install Caskroom/cask/docker-compose
@@ -248,7 +239,6 @@ brew install Caskroom/cask/owasp-zap
 # brew install Caskroom/cask/integrity
 # brew install Caskroom/cask/silverback
 # brew install Caskroom/cask/android-studio
-# brew install Caskroom/cask/vagrant-manager
 # brew install Caskroom/cask/mocksmtp
 # brew install Caskroom/cask/charles
 # brew install Caskroom/cask/lynxlet
@@ -258,3 +248,19 @@ brew install Caskroom/cask/owasp-zap
 # brew install Caskroom/cask/macvim
 # brew install Caskroom/cask/google-web-designer
 # brew install Caskroom/cask/eclipse-ide
+brew install Caskroom/cask/qlcolorcode
+brew install Caskroom/cask/qlstephen
+brew install Caskroom/cask/qlmarkdown
+brew install Caskroom/cask/quicklook-json
+brew install Caskroom/cask/qlprettypatch
+brew install Caskroom/cask/quicklook-csv
+brew install Caskroom/cask/betterzipql
+brew install Caskroom/cask/qlimagesize
+brew install Caskroom/cask/webpquicklook
+brew install Caskroom/cask/suspicious-package
+
+brew install homebrew/php/composer
+brew install homebrew/binary/ngrok2
+
+# Remove download cache
+brew cask cleanup
