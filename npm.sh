@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Install Node Version Manager
+# curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+
 # Essentials
 npm install -g bower
 npm install -g grunt-cli
