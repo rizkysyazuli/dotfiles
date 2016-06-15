@@ -8,7 +8,6 @@ npm install -g less
 npm install -g webpack
 npm install -g yo
 npm install -g browser-sync
-npm install -g phantomjs
 npm install -g coffee-script
 npm install -g adonis-cli
 npm install -g nodemon
