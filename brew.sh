@@ -182,7 +182,7 @@ brew install Caskroom/cask/google-chrome
 brew install Caskroom/cask/google-photos-backup
 # brew install Caskroom/cask/lastfm
 brew install Caskroom/cask/namechanger
-brew install Caskroom/cask/simple-comic
+brew install Caskroom/cask/techstoreclub-simple-comic
 # brew install Caskroom/cask/skitch
 brew install Caskroom/cask/skype
 brew install Caskroom/cask/spectacle
