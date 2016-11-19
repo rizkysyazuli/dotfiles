@@ -23,3 +23,4 @@ npm install -g jsonlint
 npm install -g jshint
 npm install -g sass-lint
 npm install -g yaml-js
+npm install -g eslint
