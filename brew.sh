@@ -212,6 +212,7 @@ brew install Caskroom/cask/flash-player
 brew install Caskroom/cask/adobe-creative-cloud
 brew install Caskroom/cask/java
 brew install Caskroom/cask/little-snitch
+# brew install Caskroom/cask/security-growler
 # brew install Caskroom/cask/liteicon
 # brew install Caskroom/cask/macclean
 # brew install Caskroom/cask/remote-desktop-connection
@@ -230,7 +231,18 @@ brew install Caskroom/cask/slack
 brew install Caskroom/cask/caffeine
 brew install Caskroom/cask/flux
 brew install Caskroom/cask/thyme
+brew install Caskroom/cask/selfcontrol
 # brew install Caskroom/cask/endurance
+brew install Caskroom/cask/qlstephen
+brew install Caskroom/cask/qlmarkdown
+brew install Caskroom/cask/quicklook-json
+brew install Caskroom/cask/qlprettypatch
+brew install Caskroom/cask/quicklook-csv
+brew install Caskroom/cask/betterzipql
+brew install Caskroom/cask/qlimagesize
+brew install Caskroom/cask/webpquicklook
+brew install Caskroom/cask/suspicious-package
+brew install Caskroom/cask/blockblock
 
 # Install developer apps
 brew install Caskroom/cask/airserver
@@ -245,6 +257,7 @@ brew install Caskroom/cask/sourcetree
 brew install Caskroom/cask/dash
 brew install Caskroom/cask/virtualbox
 brew install Caskroom/cask/postman
+brew install Caskroom/cask/genymotion
 # brew install Caskroom/cask/vagrant
 # brew install Caskroom/cask/vagrant-manager
 # brew install Caskroom/cask/docker
@@ -261,20 +274,14 @@ brew install Caskroom/cask/postman
 # brew install Caskroom/cask/lynxlet
 # brew install Caskroom/cask/xscope
 # brew install Caskroom/cask/sublime-text
+# brew install Caskroom/cask/visual-studio-code
 # brew install Caskroom/cask/kaleidoscope
 # brew install Caskroom/cask/macvim
 # brew install Caskroom/cask/google-web-designer
 # brew install Caskroom/cask/eclipse-ide
+brew install Caskroom/cask/colorpicker-skalacolor
+brew install Caskroom/cask/zeplin
 brew install Caskroom/cask/qlcolorcode
-brew install Caskroom/cask/qlstephen
-brew install Caskroom/cask/qlmarkdown
-brew install Caskroom/cask/quicklook-json
-brew install Caskroom/cask/qlprettypatch
-brew install Caskroom/cask/quicklook-csv
-brew install Caskroom/cask/betterzipql
-brew install Caskroom/cask/qlimagesize
-brew install Caskroom/cask/webpquicklook
-brew install Caskroom/cask/suspicious-package
 
 brew install homebrew/php/composer
 brew install homebrew/binary/ngrok2
