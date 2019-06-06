@@ -1,26 +1,35 @@
 #!/usr/bin/env bash
 
 # Install Node Version Manager
-# curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+# curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.xx.xx/install.sh | bash
+# nvm install x.x && nvm alias default x.x
+
+# Or if you have a previous NVM installation
+# nvm install x.x --reinstall-packages-from=x.x && nvm alias default x.x
 
 # Essentials
-npm install -g bower
-npm install -g grunt-cli
-npm install -g gulp-cli
-npm install -g less
-npm install -g webpack
-npm install -g yo
-npm install -g browser-sync
-npm install -g coffee-script
-npm install -g adonis-cli
-npm install -g nodemon
+npm i -g bower
+npm i -g grunt-cli
+npm i -g gulp-cli
+npm i -g yo
+npm i -g ember-cli
+npm i -g pm2
+npm i -g firebase-tools
+npm i -g json-server
+npm i -g prettier
+npm i -g nodemon
+# npm i -g browser-sync
+# npm i -g webpack
+# npm i -g coffee-script
+# npm i -g adonis-cli
+# npm i -g less
 
 # Linters
-npm install -g csslint
-npm install -g coffeelint
-npm install -g htmlhint
-npm install -g jsonlint
-npm install -g jshint
-npm install -g sass-lint
-npm install -g yaml-js
-npm install -g eslint
+# npm i -g csslint
+# npm i -g coffeelint
+# npm i -g htmlhint
+# npm i -g jsonlint
+# npm i -g jshint
+# npm i -g sass-lint
+# npm i -g yaml-js
+# npm i -g eslint

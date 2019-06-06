@@ -25,6 +25,10 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
+brew install grunt-completion
+brew install wpcli-completion
+brew install gem-completion
+brew install bundler-completion
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
@@ -82,14 +86,14 @@ brew install homebrew/dupes/screen
 
 # Install other useful binaries.
 brew install ack
+brew install git-lfs
+brew install imagemagick --with-webp
 # brew install dark-mode
 # brew install exiv2
 # brew install git
-brew install git-lfs
-brew install imagemagick --with-webp
 # brew install lua
-brew install lynx
-brew install p7zip
+# brew install lynx
+# brew install p7zip
 # brew install pigz
 # brew install pv
 # brew install rename
@@ -101,19 +105,23 @@ brew install p7zip
 # brew install vbindiff
 # brew install webkit2png
 # brew install zopfli
-brew install shellcheck
+# brew install shellcheck
 
 # Custom install
+brew install asciinema
+brew install composer
+brew install wp-cli
+brew install yarn
 brew install mackup
-brew install ant
-brew install phantomjs
 brew install ffmpeg
 brew install git-flow
 brew install tig
-brew install node
-brew install mysql
 brew install tidy-html5
 brew install itermocil
+brew install openssl
+# brew install ant
+# brew install phantomjs
+# brew install mysql
 # brew install legit
 # brew install archey
 # brew install autoconf
@@ -142,9 +150,8 @@ brew install itermocil
 # brew install mpw
 # brew install nspr
 # brew install nss
-brew install openssl
-brew install libyaml
-brew install mcrypt
+# brew install libyaml
+# brew install mcrypt
 # brew install pcre
 # brew install pkg-config
 # brew install readline
@@ -175,43 +182,69 @@ brew cleanup
 # Desktop apps
 brew tap caskroom/cask
 
+brew install Caskroom/cask/kap
+brew install Caskroom/cask/station
+brew install Caskroom/cask/endurance
+brew install Caskroom/cask/authy
+brew install Caskroom/cask/caption
+brew install Caskroom/cask/folx
+brew install Caskroom/cask/rocket
+brew install Caskroom/cask/teamviewer
+brew install Caskroom/cask/vanilla
+brew install Caskroom/cask/whatsapp
+brew install Caskroom/cask/telegram
+brew install Caskroom/cask/google-drive-file-stream
+brew install Caskroom/cask/google-backup-and-sync
 brew install Caskroom/cask/cheatsheet
 brew install Caskroom/cask/clarify
 brew install Caskroom/cask/daisydisk
-# brew install Caskroom/cask/divvy
-brew install Caskroom/cask/xmarks-safari
-brew install Caskroom/cask/alfred
 brew install Caskroom/cask/clipmenu
 brew install Caskroom/cask/cleanmymac
 brew install Caskroom/cask/dropbox
+brew install Caskroom/cask/divvy
 brew install Caskroom/cask/evernote
 brew install Caskroom/cask/firefox
 brew install Caskroom/cask/google-chrome
-brew install Caskroom/cask/google-drive
-brew install Caskroom/cask/google-photos-backup
-# brew install Caskroom/cask/lastfm
-brew install Caskroom/cask/namechanger
-brew install Caskroom/cask/techstoreclub-simple-comic
-# brew install Caskroom/cask/skitch
+brew install Caskroom/cask/simple-comic
 brew install Caskroom/cask/skype
 brew install Caskroom/cask/spectacle
 brew install Caskroom/cask/steam
-brew install Caskroom/cask/battle-net
 brew install Caskroom/cask/the-unarchiver
 brew install Caskroom/cask/vlc
-brew install Caskroom/cask/spotify
+brew install Caskroom/cask/focus
+brew install Caskroom/cask/recordit
+brew install Caskroom/cask/flash-player
+brew install Caskroom/cask/little-snitch
+brew install Caskroom/cask/opera
+brew install Caskroom/cask/transmission
+brew install Caskroom/cask/plex-media-server
+brew install Caskroom/cask/qlstephen
+brew install Caskroom/cask/qlmarkdown
+brew install Caskroom/cask/quicklook-json
+brew install Caskroom/cask/qlprettypatch
+brew install Caskroom/cask/quicklook-csv
+brew install Caskroom/cask/qlimagesize
+brew install Caskroom/cask/qlcolorcode
+brew install Caskroom/cask/webpquicklook
+brew install Caskroom/cask/suspicious-package
+brew install Caskroom/cask/colorpicker-skalacolor
+# brew install Caskroom/cask/betterzipql
+# brew install Caskroom/cask/blockblock
+# brew install Caskroom/cask/namechanger
+# brew install Caskroom/cask/java
+# brew install Caskroom/cask/xmarks-safari
+# brew install Caskroom/cask/alfred
+# brew install Caskroom/cask/google-photos-backup
+# brew install Caskroom/cask/lastfm
+# brew install Caskroom/cask/skitch
+# brew install Caskroom/cask/battle-net
+# brew install Caskroom/cask/spotify
 # brew install Caskroom/cask/handbrake
 # brew install Caskroom/cask/macgamestore
 # brew install Caskroom/cask/cyberghost
-brew install Caskroom/cask/focus
-brew install Caskroom/cask/recordit
 # brew install Caskroom/cask/drop-to-gif
-brew install Caskroom/cask/tunnelbear
-brew install Caskroom/cask/flash-player
+# brew install Caskroom/cask/tunnelbear
 # brew install Caskroom/cask/adobe-reader
-brew install Caskroom/cask/adobe-creative-cloud
-brew install Caskroom/cask/java
-brew install Caskroom/cask/little-snitch
 # brew install Caskroom/cask/security-growler
 # brew install Caskroom/cask/liteicon
 # brew install Caskroom/cask/macclean
@@ -220,44 +253,35 @@ brew install Caskroom/cask/little-snitch
 # brew install Caskroom/cask/mou
 # brew install Caskroom/cask/miro-video-converter
 # brew install Caskroom/cask/onyx
-# brew install Caskroom/cask/opera
 # brew install Caskroom/cask/opera-developer
 # brew install Caskroom/cask/opera-next
 # brew install Caskroom/cask/tor-browser
-# brew install Caskroom/cask/transmission
 # brew install Caskroom/cask/ukelele
-brew install Caskroom/cask/plex-media-server
-brew install Caskroom/cask/slack
-brew install Caskroom/cask/caffeine
-brew install Caskroom/cask/flux
-brew install Caskroom/cask/thyme
-brew install Caskroom/cask/selfcontrol
-# brew install Caskroom/cask/endurance
-brew install Caskroom/cask/qlstephen
-brew install Caskroom/cask/qlmarkdown
-brew install Caskroom/cask/quicklook-json
-brew install Caskroom/cask/qlprettypatch
-brew install Caskroom/cask/quicklook-csv
-brew install Caskroom/cask/betterzipql
-brew install Caskroom/cask/qlimagesize
-brew install Caskroom/cask/webpquicklook
-brew install Caskroom/cask/suspicious-package
-brew install Caskroom/cask/blockblock
+# brew install Caskroom/cask/slack
+# brew install Caskroom/cask/caffeine
+# brew install Caskroom/cask/flux
+# brew install Caskroom/cask/thyme
+# brew install Caskroom/cask/selfcontrol
 
 # Install developer apps
-brew install Caskroom/cask/airserver
-brew install Caskroom/cask/atom
+invisionsync
+brew install Caskroom/cask/vysor
+brew install Caskroom/cask/adobe-creative-cloud
 brew install Caskroom/cask/cyberduck
-# brew install Caskroom/cask/fontprep
-brew install Caskroom/cask/imagealpha
 brew install Caskroom/cask/imageoptim
 brew install Caskroom/cask/iterm2
 brew install Caskroom/cask/sequel-pro
 brew install Caskroom/cask/sourcetree
 brew install Caskroom/cask/dash
-brew install Caskroom/cask/virtualbox
 brew install Caskroom/cask/postman
-brew install Caskroom/cask/genymotion
+brew install Caskroom/cask/visual-studio-code
+brew install Caskroom/cask/tableplus
+# brew install Caskroom/cask/imagealpha
+# brew install Caskroom/cask/fontprep
+# brew install Caskroom/cask/virtualbox
+# brew install Caskroom/cask/airserver
+# brew install Caskroom/cask/atom
+# brew install Caskroom/cask/genymotion
 # brew install Caskroom/cask/vagrant
 # brew install Caskroom/cask/vagrant-manager
 # brew install Caskroom/cask/docker
@@ -274,17 +298,14 @@ brew install Caskroom/cask/genymotion
 # brew install Caskroom/cask/lynxlet
 # brew install Caskroom/cask/xscope
 # brew install Caskroom/cask/sublime-text
-# brew install Caskroom/cask/visual-studio-code
 # brew install Caskroom/cask/kaleidoscope
 # brew install Caskroom/cask/macvim
 # brew install Caskroom/cask/google-web-designer
 # brew install Caskroom/cask/eclipse-ide
-brew install Caskroom/cask/colorpicker-skalacolor
-brew install Caskroom/cask/zeplin
-brew install Caskroom/cask/qlcolorcode
+# brew install Caskroom/cask/zeplin
 
-brew install homebrew/php/composer
-brew install homebrew/binary/ngrok2
+# brew install homebrew/php/composer
+# brew install homebrew/binary/ngrok2
 
 # Remove download cache
 brew cask cleanup
